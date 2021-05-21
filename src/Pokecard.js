@@ -6,7 +6,7 @@ let padImgId = (id) => {
     var newId = id.toString();
     var digits = newId.length;
     //start padding
-    while (digits < 3) {
+    while (digits < 3) { 
          newId = `0${newId}`; //pad one 0 in front
          digits++;
     }
